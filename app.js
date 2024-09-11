@@ -94,6 +94,4 @@ app.use((err, req, res, next) => {
     res.status(status).render('error', { err })
 })
 
-app.listen(PORT, ()=>{
-    console.log(`Sever running on ${PORT}`)
-})
+module.exports = app

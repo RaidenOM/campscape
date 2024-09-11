@@ -1,4 +1,14 @@
 {
+  "name": "my-express-app",
+  "version": "1.0.0",
+  "description": "A simple Express.js application.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "build": "echo 'No build step necessary'",
+    "heroku-postbuild": "npm install"
+  },
   "dependencies": {
     "@maptiler/client": "^1.8.1",
     "cloudinary": "^1.41.3",
